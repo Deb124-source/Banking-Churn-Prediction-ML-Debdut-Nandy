@@ -4,7 +4,7 @@ import numpy as np
 
 model = joblib.load("models/churn_model (2).pkl")
 
-scaler = joblib.load("")
+scaler = joblib.load("models/scaler (1).pkl")
 
 
 st.title("🏦 Banking Customer Churn Prediction")
